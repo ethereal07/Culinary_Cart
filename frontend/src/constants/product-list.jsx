@@ -28,7 +28,7 @@ const products = [
     {id :27, name : 'Apple', price : 350, imageUrl : 'https://5.imimg.com/data5/AK/RA/MY-68428614/apple-500x500.jpg', quantity : 0, } ,
     {id :28, name : 'Pineapple', price : 80, imageUrl : 'https://farmfreshbangalore.com/cdn/shop/products/pineapple.jpg', quantity : 0, } ,
     {id :29, name : 'Guava', price : 135, imageUrl : 'https://img.freepik.com/premium-photo/fresh-guava-fruit-with-leaf-isolated_147493-1301.jpg', quantity : 0, } ,
-    {id :30, name : 'Mosambo', price : 175, imageUrl : 'https://m.media-amazon.com/images/I/41ODvQNTKHL._SY300_SX300_QL70_FMwebp_.jpg', quantity : 0, } ,
+    {id :30, name : 'Mosambi', price : 175, imageUrl : 'https://m.media-amazon.com/images/I/41ODvQNTKHL._SY300_SX300_QL70_FMwebp_.jpg', quantity : 0, } ,
     {id :31, name : 'Sapota', price : 45, imageUrl : 'https://freshclub.co.in/cdn/shop/products/Sapota500gm.jpg', quantity : 0, } ,
     {id :32, name : 'Kiwi', price : 200, imageUrl : 'https://cdn.britannica.com/45/126445-050-4C0FA9F6/Kiwi-fruit.jpg', quantity : 0, } ,
     {id :33, name : 'Bitter gourd', price : 30, imageUrl : 'https://naturessoulshop.com/wp-content/uploads/2020/07/Karela-Bitter-Gourd-Bangalore.jpeg', quantity : 0, } ,

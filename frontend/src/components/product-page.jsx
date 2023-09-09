@@ -15,6 +15,10 @@ import Image4 from '../data/paneer-butter.png'
 import Image5 from '../data/paneer-pizza.png'
 import Image6 from '../data/paneer-tikka.png'
 
+import Image7 from '../data/PTC-1.png'
+import Image8 from '../data/PTC-2.png'
+import Image9 from '../data/PTC-3.png'
+
 import gif1 from '../data/stuffed_capsicum.gif'
 import gif2 from '../data/capsicum_stir_fry.gif'
 import gif3 from '../data/capsicum_curry.gif'
@@ -22,6 +26,10 @@ import gif3 from '../data/capsicum_curry.gif'
 import gif4 from '../data/paneer-butter-masala.gif'
 import gif5 from '../data/butter-paneer-pizza.gif'
 import gif6 from '../data/paneer-tikka.gif'
+
+import gif7 from '../data/PTC-g1.gif'
+import gif8 from '../data/PTC-g2.gif'
+import gif9 from '../data/PTC-g3.gif'
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -87,7 +95,35 @@ const mapping = {
       gif: gif6,
       recommended_ingredients:[
         {id :7, name : 'Curd', price : 50, image : 'https://www.jiomart.com/images/product/original/590002698/nandini-curd-500-g-pouch-product-images-o590002698-p590002698-0-202203150445.jpg', quantity : 0, }
-      ]}]
+      ]}],
+    'Potato-Tomato-Cauliflower': [
+      {id: 1, 
+      name: "Aloo Gobi Masala", 
+      steps: ["Step 1\nGather all your ingredients. You will need: 2 cups of cauliflower florets, 2 medium-sized potatoes (peeled and cubed), 2 medium-sized tomatoes (finely chopped), 1 large onion (finely chopped), 2 green chilies (finely chopped), 1 teaspoon of cumin seeds, 1 teaspoon of turmeric powder, 1 teaspoon of red chili powder, 1 teaspoon of garam masala, 2 tablespoons of vegetable oil, salt to taste, and fresh coriander leaves for garnish.", "Step 2\nHeat the vegetable oil in a large pan over medium heat. Once the oil is hot, add the cumin seeds and let them sizzle for a few seconds. Then, add the chopped onions and green chilies to the pan. Saut\u00e9 these ingredients until the onions become translucent.", "Step 3\nAdd the chopped tomatoes to the pan and stir well. Cook until the tomatoes become soft and mushy. Then, add the turmeric powder, red chili powder, and garam masala to the pan. Stir well to combine all the ingredients and cook for another 2-3 minutes.", "Step 4\nAdd the cubed potatoes and cauliflower florets to the pan. Stir well to ensure that the vegetables are coated with the spice mixture. Cover the pan and let it cook on a low heat for about 20-25 minutes, or until the vegetables are cooked through. Make sure to stir occasionally to prevent the vegetables from sticking to the pan.", "Step 5\nOnce the vegetables are cooked, add salt to taste and stir well. Remove the pan from the heat and garnish the Aloo Gobi Masala with fresh coriander leaves. Serve hot with rice or naan bread. Enjoy your homemade Indian dish!"], 
+      image: Image7, 
+      gif: gif7,
+      recommended_ingredients : [
+        {id :8, name : 'Onion', price : 24, image : 'https://images.hindustantimes.com/img/2022/04/20/550x309/raw_onion_thumb_1650430897134_1650430905815.jpg', quantity : 0, },
+        {id :14, name : 'Green Chilli', price : 5, image : 'https://kumaribasket.com/wp-content/uploads/2020/07/Thick-Green-Chilli-600x600-1.jpg', quantity : 0, },
+      ]}, 
+      {id: 2, 
+      name: "Roasted Vegetable Soup", 
+      steps: ["Step 1\nStart by preheating your oven to 400 degrees Fahrenheit. While the oven is heating, gather your vegetables. You will need potatoes, tomatoes, and cauliflower. Wash them thoroughly and cut them into small, bite-sized pieces. ", "Step 2\nArrange the cut vegetables on a baking sheet. Drizzle them with olive oil and sprinkle with salt and pepper. Toss the vegetables to ensure they are evenly coated with the oil and seasonings. ", "Step 3\nPlace the baking sheet in the preheated oven. Roast the vegetables for about 30-40 minutes, or until they are tender and caramelized. Make sure to stir the vegetables every 10-15 minutes to ensure they roast evenly and don't burn.", "Step 4\nOnce the vegetables are roasted, remove them from the oven and let them cool slightly. Then, transfer them to a blender or food processor. Add vegetable broth to the blender. The amount of broth you add will depend on how thick you want your soup to be. Start with a small amount and add more as needed.", "Step 5\nBlend the vegetables and broth until smooth. If the soup is too thick, add more broth. If it's too thin, add more vegetables. Once the soup is the right consistency, pour it into a pot and heat it over medium heat until it's hot. Taste the soup and adjust the seasonings as needed. Serve the soup hot, with a sprinkle of fresh herbs or a dollop of sour cream if desired."], 
+      image: Image8, 
+      gif: gif8,
+      recommended_ingredients: [
+        {id :7, name : 'Curd', price : 50, image : 'https://www.jiomart.com/images/product/original/590002698/nandini-curd-500-g-pouch-product-images-o590002698-p590002698-0-202203150445.jpg', quantity : 0, } ,
+      ]}, 
+      {id: 3, 
+      name: "Cauliflower, Potato, and Tomato Curry", 
+      steps: ["Step 1\nGather all your ingredients. You will need 1 large cauliflower, cut into florets, 2 large potatoes, peeled and diced, 4 large tomatoes, diced, 1 large onion, finely chopped, 2 cloves of garlic, minced, 1 tablespoon of curry powder, 1 teaspoon of turmeric, 1 teaspoon of cumin, 1 teaspoon of coriander, 1/2 teaspoon of chili powder, 2 tablespoons of vegetable oil, salt to taste, and fresh coriander leaves for garnish.", "Step 2\nHeat the vegetable oil in a large pan over medium heat. Add the chopped onion and minced garlic to the pan and saut\u00e9 until the onions become translucent and the garlic is fragrant. This should take about 5 minutes.", "Step 3\nAdd the curry powder, turmeric, cumin, coriander, and chili powder to the pan. Stir well to combine the spices with the onions and garlic. Cook for another 2 minutes to allow the spices to release their flavors.", "Step 4\nAdd the diced tomatoes to the pan and stir well. Cook for about 5 minutes, until the tomatoes start to break down and form a sauce. Add the cauliflower florets and diced potatoes to the pan. Stir well to coat the vegetables in the tomato and spice mixture.", "Step 5\nReduce the heat to low, cover the pan, and let the curry simmer for about 20-25 minutes, until the vegetables are tender. Stir occasionally to prevent the curry from sticking to the pan. Once the vegetables are cooked, season with salt to taste. Garnish with fresh coriander leaves before serving. Enjoy your Cauliflower, Potato, and Tomato Curry with rice or naan bread."], 
+      image: Image9, 
+      gif: gif9,
+      recommended_ingredients: [
+        {id :8, name : 'Onion', price : 24, image : 'https://images.hindustantimes.com/img/2022/04/20/550x309/raw_onion_thumb_1650430897134_1650430905815.jpg', quantity : 0, },
+        {id :39, name : 'Garlic', price : 220, image : 'https://img2.exportersindia.com/product_images/bc-full/dir_184/5501886/fresh-garlic-1522752363-3765867.jpeg', quantity : 0, } 
+      ]
+    }]
 
   }
 
