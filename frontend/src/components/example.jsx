@@ -1,0 +1,1 @@
+const suggestedRecipes = mapping[cart.map((product)=>product.name).join('-')]
